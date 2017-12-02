@@ -13,10 +13,10 @@
   - http://www.xx.com/index.php?id=1
 
 - 下面两个POST请求会遗漏其中一个
-    - http://www.xx.com/index.php
-      id=1&tpye=3
+    - http://www.xx.com/index.php <br>
+      id=1&tpye=3
       
-    - http://www.xx.com/index.php
+    - http://www.xx.com/index.php <br>
       style=1&keyword=3
  
  ##### 基本用法
@@ -25,5 +25,5 @@
   
   sqlmap -l sqli_for_check.txt --batch -smart
   
- MAC查看结果
+ MAC查看结果 <br>
 /usr/local/Cellar/sqlmap/1.1.11/libexec/output/
