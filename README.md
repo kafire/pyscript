@@ -1,6 +1,6 @@
 #### 1、burp_log_filter.py
 ##### 适用场景
-  脚本主要用于过滤BurpSuite日志。我们做HTTP测试利用BurpSuite的日志记录了所有请求，BURP免费版是不支持logging的，user options --->misc--->logging：
+  脚本主要用于过滤BurpSuite日志。我们做HTTP测试利用BurpSuite的日志记录了所有请求，BURP免费版是不支持logging的，user options --->misc--->logging--->proxy--->Requests：
 ##### 主要功能
 - 按照自定义域名过滤请求
 - 过滤静态资源请求，如果有遗漏可以手动添加black_list
