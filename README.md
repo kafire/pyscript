@@ -1,4 +1,4 @@
-#### 1、pyscript
+#### 1、burp_log_filter.py
 ##### 适用场景
   脚本主要用于过滤BurpSuite日志。我们做HTTP测试利用BurpSuite的日志记录了所有请求，BURP免费版是不支持logging的，user options --->misc--->logging：
 ##### 主要功能
