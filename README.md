@@ -12,7 +12,8 @@
   - http://www.xx.com/index.php?id=1&tpye=3 <br>
   - http://www.xx.com/index.php?id=1 <br>
 
-- 下面两个POST请求会遗漏其中一个 <br>
+- 下面两个POST请求会遗漏其中一个
+
     - http://www.xx.com/index.php <br>
       id=1&tpye=3
     - http://www.xx.com/index.php <br>
