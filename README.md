@@ -15,7 +15,6 @@
 - 下面两个POST请求会遗漏其中一个 <br>
     - http://www.xx.com/index.php <br>
       id=1&tpye=3
- 
     - http://www.xx.com/index.php <br>
       style=1&keyword=3
  
